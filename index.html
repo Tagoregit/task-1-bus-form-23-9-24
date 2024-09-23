@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <center><h1>GENERAL BUS PASS APPLICATION</h1></center>
+    <fieldset>
+        <legend>Applicant Details</legend>
+        <form action="./index.html" method="get">
+            <label for="name">Name*</label>
+            <input type="text" name="name" id="name">
+            <label for="fname">Father/Guardians Name*</label>
+            <input type="text" name="father/guardians" id="fname"><br>
+            <label for="dob">Date of birth</label>
+            <input type="data" name="Date os birth" id="dob">
+            <label for="gender">Gender*</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female"><br>
+            <label for="aso">Age As on:*</label>
+            <label for="year">year(s)</label>
+            <input type="text" name="year" id="year" size="1">
+            <label for="month">month(s)</label>
+            <input type="text" name="month" id="month" size="1">
+            <label for="day">day(s)</label>
+            <input type="text" name="day" id="day" size="1">
+            <label for="adh">Aadhaar NO:*</label>
+            <input type="tel" name="aadhaar" id="adh"><br>
+            <label for="no">Mobile NO*</label>
+            <input type="tel" name="name" id="no">
+             <label for="email">E-mail id*</label>
+             <input type="text" name="email" id="email"><br>
+             <label for="ph">Photo*</label>
+             <input type="file" name="photo" id="ph">
+             
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Residential Address Details</legend>
+            <label for="aa">Applicant's Address*</label>
+            <textarea name="address" id="aa" row="10" cols="15"></textarea>
+           <label for="dis">District*</label>
+           <select id="dis">
+            <option value="">select</option>
+            <option value="Hyderbad">Hyderbad</option>
+            <option value=" Warangal">Warangal</option>
+            <option value="Khammam">Khammam</option>
+            <option value="Karimnagar">Karimnagar</option>
+           </select><br>
+            <label for="man">Mandal*</label>
+           <select id="man">
+            <option value="">select</option>
+            <option value="koti">koti</option>
+            <option value="kphp">kphp</option>
+            <option value="uppal">uppal</option>
+            <option value="tarnak">tarnak</option>
+           </select>
+            <label for="vil">Village*</label>
+            <select id="vill">
+                <option value="">select</option>
+                <option value="boduppal">boduppal</option>
+                <option value="meadipally">meadipally</option>
+                <option value="uppal">uppal</option>
+                <option value="abids">abids</option>
+            </select><br>
+            <label for="pin">Pincode*</label>
+            <input type="text" name="name" id="pin" placeholder="xxxxxx"><br>
+        </fieldset>
+    <fieldset>
+        <legend>Pass Type Details</legend>
+        <label for="city">City*</label>
+           <select  id="city">
+            <option value="">select</option>
+            <option value="Hyderbad">Hyderbad</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bengaluru">Bengaluru</option>
+           </select><br>
+            <label for="pass">Pass Type*</label>
+            <select  id="pass">
+                <Option value="">select</Option>
+                <Option valu="city">city</Option>
+                <Option value="district">district</Option>
+            </select>
+
+    </fieldset>
+    <fieldset>
+        <legend>Mode of Payment & Pass Collection</legend>
+            <label for="pay">Payment Mode*</label>
+            <select id="pay">
+                <option value="">select</option>
+                <option value="UPI">UPI</option>
+                <option value="Cash">cash</option>
+            </select><br>
+            <label for="pdm">Pass Delivery Mode*</label>
+            <select id="pdm">
+                <option value="">select</option>
+                <option value="directy">directy</option>
+                <option value="post">post</option>
+            </select><br>
+            <label for="ccp">Central at which you want to collect pass*</label>
+            <select id="ccp">
+                <option value="">select</option>
+                <option value="uppal">uppal</option>
+                <option value="abids">abids</option>
+                <option value="kphp">kphp</option>
+            </select>
+
+    </fieldset>
+
+</form>
+</body>
+</html>
